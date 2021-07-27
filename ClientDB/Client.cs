@@ -8,10 +8,9 @@ namespace ClientDB
 {
     class Client
     {
-        private string lastName;
-        private string firstName;
-        private string secondName;
-        private int myAge;
+        private string lastName = "";
+        private string firstName = "";
+        private string secondName = "";
 
         private void SetNames( string name )
         {
@@ -42,14 +41,9 @@ namespace ClientDB
             set { SetNames(value);  }
         }
 
-        public int Age()
+        public Client( string name )
         {
-            get { }
-        }
-
-        public Client( string name, int age )
-        {
-
+            SetNames(name);
         }
 
         public bool IsSame( string name )
@@ -57,8 +51,13 @@ namespace ClientDB
             string[] names = name.Split(new string[] { " ", "." },
                 StringSplitOptions.RemoveEmptyEntries);
             int n = names.Length;
-            return lastName.Equals(names[n - 1]) && 
-                firstName.Equals(names[0]);
+
+            if (lastName != null)
+                return lastName.Equals(names[n - 1]) &&
+                    firstName.Equals(names[0]);
+            else
+                return name.Equals(names[0]);
+
         }
 
     }

@@ -1,0 +1,10 @@
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.Properties.Resources.resources
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.csproj.GenerateResource.cache
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.csproj.CoreCompileInputs.cache
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\bin\Debug\ClientDB.exe.config
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\bin\Debug\ClientDB.exe
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\bin\Debug\ClientDB.pdb
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.Form1.resources
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.exe
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.pdb
+C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.csprojAssemblyReference.cache

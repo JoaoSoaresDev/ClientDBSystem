@@ -34,7 +34,7 @@ namespace ClientDB
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (!CDB.AddClient(ClientNameTextBox.Text))
+            if (!CDB.AddClient(ClientNameTextBox.Text, Convert.ToInt32(Math.Round(ClientAgeBox.Value, 0))))
             {
                 MessageBox.Show("Cannot add this client!");
             }
@@ -79,6 +79,14 @@ namespace ClientDB
 
         }
 
-        
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

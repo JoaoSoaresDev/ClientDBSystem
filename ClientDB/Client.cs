@@ -11,6 +11,13 @@ namespace ClientDB
         private string lastName = "";
         private string firstName = "";
         private string secondName = "";
+        private int age = 0;
+
+        public Client(string name, int value)
+        {
+            SetNames(name);
+            SetAge(value);
+        }
 
         private void SetNames( string name )
         {
@@ -34,16 +41,21 @@ namespace ClientDB
             }
             
         }
+        public void SetAge(int value)
+        {
+            age = value;
+        }
 
         public string FullName
         {
             get { return firstName + " " + secondName + " " + lastName;  }
             set { SetNames(value);  }
         }
-
-        public Client( string name )
+      
+        public int Age
         {
-            SetNames(name);
+            get { return age; }
+            set { SetAge(value); }
         }
 
         public bool IsSame( string name )

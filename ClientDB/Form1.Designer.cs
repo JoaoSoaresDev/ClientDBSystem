@@ -35,11 +35,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.ClientsList = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ClientAgeBox = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.ClientAgeBox)).BeginInit();
             this.SuspendLayout();
             // 
             // ClientNameTextBox
             // 
-            this.ClientNameTextBox.Location = new System.Drawing.Point(142, 42);
+            this.ClientNameTextBox.Location = new System.Drawing.Point(142, 24);
             this.ClientNameTextBox.Name = "ClientNameTextBox";
             this.ClientNameTextBox.Size = new System.Drawing.Size(308, 20);
             this.ClientNameTextBox.TabIndex = 1;
@@ -49,11 +53,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(41, 43);
+            this.label1.Location = new System.Drawing.Point(41, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 16);
+            this.label1.Size = new System.Drawing.Size(81, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "ClientName";
+            this.label1.Text = "Client Name";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // AddClient
@@ -109,11 +113,43 @@
             this.ClientsList.TabIndex = 7;
             this.ClientsList.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(41, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(69, 16);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Client Age";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // ClientAgeBox
+            // 
+            this.ClientAgeBox.Location = new System.Drawing.Point(142, 54);
+            this.ClientAgeBox.Name = "ClientAgeBox";
+            this.ClientAgeBox.Size = new System.Drawing.Size(120, 20);
+            this.ClientAgeBox.TabIndex = 10;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.Location = new System.Drawing.Point(166, 376);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(135, 13);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Developed by Joao Soares";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 378);
+            this.ClientSize = new System.Drawing.Size(481, 398);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.ClientAgeBox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.ClientsList);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
@@ -124,6 +160,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ClientDB System";
+            ((System.ComponentModel.ISupportInitialize)(this.ClientAgeBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +175,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox ClientsList;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown ClientAgeBox;
+        private System.Windows.Forms.Label label3;
     }
 }
 

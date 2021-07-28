@@ -21,9 +21,16 @@ namespace ClientDB
             myClients = new Client[MAX_CLIENTS];
         }
 
-        public bool AddClient(string clientName)
+        public bool AddClient(string clientName, int age)
         {
-            
+            //Check if client already registered
+            if (IsAClient(clientName) == true)
+                return false;
+
+            // Check if clientName is null
+            if (String.IsNullOrEmpty(clientName))
+                return false;
+
             // Find any empty slots in myClient array
             int index = -1;
             for (int i = 0; i < MAX_CLIENTS; i++)
@@ -36,7 +43,7 @@ namespace ClientDB
             }
             if (index != -1)
             {
-                myClients[index] = new Client(clientName);
+                myClients[index] = new Client(clientName, age);
                 // Create a new client object
 
                 totalClients++;
@@ -65,6 +72,7 @@ namespace ClientDB
 
         public bool IsAClient(string clientName)
         {
+            // Iterates through array looking for a equivalent name
             for (int i = 0; i < MAX_CLIENTS; i++)
                 if (myClients[i] != null)
                     if (myClients[i].IsSame(clientName))
@@ -78,7 +86,7 @@ namespace ClientDB
 
             for (int i = 0; i < totalClients; i++)
             {
-                list.Add(myClients[i].FullName);
+                list.Add(myClients[i].FullName + " " + myClients[i].Age.ToString());
                 check = true;
             }
 

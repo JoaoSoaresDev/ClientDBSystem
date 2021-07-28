@@ -8,3 +8,13 @@ C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.Form
 C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.exe
 C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.pdb
 C:\Users\33785163\Downloads\ClientDBSystem-main\ClientDB\obj\Debug\ClientDB.csprojAssemblyReference.cache
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\bin\Debug\ClientDB.exe.config
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\bin\Debug\ClientDB.exe
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\bin\Debug\ClientDB.pdb
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.csproj.AssemblyReference.cache
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.Form1.resources
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.Properties.Resources.resources
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.csproj.GenerateResource.cache
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.exe
+C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.pdb

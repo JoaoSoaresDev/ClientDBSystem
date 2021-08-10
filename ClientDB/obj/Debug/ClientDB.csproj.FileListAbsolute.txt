@@ -18,3 +18,12 @@ C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\De
 C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.csproj.CoreCompileInputs.cache
 C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.exe
 C:\Users\Ryzen PC\Documents\Programming\Projects\ClientDB System\ClientDB\obj\Debug\ClientDB.pdb
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\bin\Debug\ClientDB.exe.config
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\bin\Debug\ClientDB.exe
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\bin\Debug\ClientDB.pdb
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.csprojAssemblyReference.cache
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.Form1.resources
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.Properties.Resources.resources
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.csproj.GenerateResource.cache
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.exe
+C:\Users\User\Documents\Uni\Semester 2 - 2021\ICT 365\Coding\ClientDB - Exercise 2 - Inheritance\ClientDB\obj\Debug\ClientDB.pdb

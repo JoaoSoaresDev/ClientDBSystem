@@ -12,6 +12,8 @@ namespace ClientDB
         private string firstName = "";
         private string secondName = "";
         private int age = 0;
+        
+        public Client() { }
 
         public Client(string name, int value)
         {
@@ -71,6 +73,8 @@ namespace ClientDB
                 return name.Equals(names[0]);
 
         }
+
+
 
     }
 }

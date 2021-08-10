@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NonMemberClient.cs" />
+    <Compile Include="MemberClient.cs" />
     <Compile Include="ClientDB.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="Form1.cs">

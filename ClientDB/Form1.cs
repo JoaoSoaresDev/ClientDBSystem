@@ -31,7 +31,7 @@ namespace ClientDB
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void AddClient_Click(object sender, EventArgs e)
         {
 
             if (!CDB.AddClient(ClientNameTextBox.Text, Convert.ToInt32(Math.Round(ClientAgeBox.Value, 0))))
@@ -42,7 +42,7 @@ namespace ClientDB
                 MessageBox.Show("Client added!");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void RemoveClient_Click(object sender, EventArgs e)
         {
             if (!CDB.RemoveClient(ClientNameTextBox.Text))
                 MessageBox.Show("Cannot remove this client!");
@@ -50,7 +50,7 @@ namespace ClientDB
                 MessageBox.Show("Client removed!");
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void IsClient_Click(object sender, EventArgs e)
         {
             if (CDB.IsAClient(ClientNameTextBox.Text))
                 MessageBox.Show("Our client!");
@@ -58,7 +58,7 @@ namespace ClientDB
                 MessageBox.Show("Not our client!");
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void ListAll_Click(object sender, EventArgs e)
         {
             if (ClientsList.Items != null)
                 ClientsList.Items.Clear();
@@ -85,6 +85,10 @@ namespace ClientDB
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+        private void MemberLabel_Click(object sender, EventArgs e)
         {
 
         }

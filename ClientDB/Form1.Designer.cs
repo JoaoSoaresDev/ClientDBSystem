@@ -38,6 +38,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ClientAgeBox = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
+            this.MemberLabel = new System.Windows.Forms.Label();
+            this.YesCheckBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.ClientAgeBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +71,7 @@
             this.AddClient.TabIndex = 3;
             this.AddClient.Text = "Add Client";
             this.AddClient.UseVisualStyleBackColor = true;
-            this.AddClient.Click += new System.EventHandler(this.button1_Click);
+            this.AddClient.Click += new System.EventHandler(this.AddClient_Click);
             // 
             // button2
             // 
@@ -80,7 +82,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Remove Client";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.RemoveClient_Click);
             // 
             // button3
             // 
@@ -91,7 +93,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Is  A Client?";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.IsClient_Click);
             // 
             // button1
             // 
@@ -102,7 +104,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "List Clients";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.ListAll_Click);
             // 
             // ClientsList
             // 
@@ -142,11 +144,34 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "Developed by Joao Soares";
             // 
+            // MemberLabel
+            // 
+            this.MemberLabel.AutoSize = true;
+            this.MemberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MemberLabel.Location = new System.Drawing.Point(295, 57);
+            this.MemberLabel.Name = "MemberLabel";
+            this.MemberLabel.Size = new System.Drawing.Size(58, 16);
+            this.MemberLabel.TabIndex = 12;
+            this.MemberLabel.Text = "Member";
+            this.MemberLabel.Click += new System.EventHandler(this.MemberLabel_Click);
+            // 
+            // YesCheckBox
+            // 
+            this.YesCheckBox.AutoSize = true;
+            this.YesCheckBox.Location = new System.Drawing.Point(359, 57);
+            this.YesCheckBox.Name = "YesCheckBox";
+            this.YesCheckBox.Size = new System.Drawing.Size(63, 17);
+            this.YesCheckBox.TabIndex = 13;
+            this.YesCheckBox.Text = "Yes/No";
+            this.YesCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(481, 398);
+            this.Controls.Add(this.YesCheckBox);
+            this.Controls.Add(this.MemberLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ClientAgeBox);
             this.Controls.Add(this.label2);
@@ -178,6 +203,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown ClientAgeBox;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label MemberLabel;
+        private System.Windows.Forms.CheckBox YesCheckBox;
     }
 }
 
